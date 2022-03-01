@@ -18,10 +18,10 @@ function ValidateField(field) {
     function customMessage(typeError) {
         const messages = {
             text: {
-                valueMissing: "[ERRO] Por favor, preencha este campo"
+                valueMissing: "[ERRO] Por favor, preencha este campo!"
             },
             email: {
-                valueMissing: "[ERRO] O email é obrigatório, favor preencher",
+                valueMissing: "[ERRO] O email é obrigatório, favor preencher!",
                 typeMismatch: "[ERRO] Por favor, preencha um email válido!"
             }
         }
